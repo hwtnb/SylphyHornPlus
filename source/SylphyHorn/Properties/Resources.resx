@@ -243,6 +243,9 @@
   <data name="Settings_Language_RequireRestartMessage" xml:space="preserve">
     <value>You must restart app in order for the changes to take all effect.</value>
   </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>System</value>
+  </data>
   <data name="Settings_Log" xml:space="preserve">
     <value>App log</value>
   </data>
@@ -328,7 +331,7 @@
     <value>Move active window to specified desktop and switch to it</value>
   </data>
   <data name="Settings_MoveWindowToSpecifiedDesktopAndSwitch_Previous" xml:space="preserve">
-    <value>Previous:</value>
+    <value>Previous (Switch):</value>
   </data>
   <data name="Settings_MoveWindowToSpecifiedDesktop_Previous" xml:space="preserve">
     <value>Previous:</value>

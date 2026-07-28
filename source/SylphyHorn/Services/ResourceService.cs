@@ -23,6 +23,7 @@ namespace SylphyHorn.Services
 		{
 			"en",
 			"ja",
+			"zh-hans",
 		};
 
 		/// <summary>

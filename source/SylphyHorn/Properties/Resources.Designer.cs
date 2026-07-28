@@ -439,6 +439,15 @@ namespace SylphyHorn.Properties {
         }
         
         /// <summary>
+        ///   System. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Settings_Language_System {
+	        get {
+		        return ResourceManager.GetString("Settings_Language_System", resourceCulture);
+	        }
+        }
+        
+        /// <summary>
         ///   App log に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Settings_Log {

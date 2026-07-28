@@ -770,7 +770,7 @@ namespace SylphyHorn.UI.Bindings
 			this._startup = new Startup();
 			this._startupScheduler = new StartupScheduler();
 
-			this.Cultures = new[] { new DisplayViewModel<string> { Display = "(auto)", } }
+			this.Cultures = new[] { new DisplayViewModel<string> { Display = Resources.Settings_Language_System, } }
 				.Concat(ResourceService.Current.SupportedCultures
 					.Select(x => new DisplayViewModel<string> { Display = x.NativeName, Value = x.Name, })
 					.OrderBy(x => x.Display))

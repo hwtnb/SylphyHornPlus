@@ -243,6 +243,9 @@
   <data name="Settings_Language_RequireRestartMessage" xml:space="preserve">
     <value>すべての表示の反映にはアプリの再起動が必要です。</value>
   </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>システム</value>
+  </data>
   <data name="Settings_Log" xml:space="preserve">
     <value>アプリ ログ</value>
   </data>

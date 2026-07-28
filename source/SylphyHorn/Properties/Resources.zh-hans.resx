@@ -1,0 +1,473 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Common_Default" xml:space="preserve">
+        <value>默认值</value>
+    </data>
+    <data name="Common_ProvidedByWinows" xml:space="preserve">
+        <value>由 Windows 提供</value>
+    </data>
+    <data name="Common_Reference" xml:space="preserve">
+        <value>选择</value>
+    </data>
+    <data name="Settings_Background" xml:space="preserve">
+        <value>背景</value>
+    </data>
+    <data name="Settings_Background_ChangeBackground" xml:space="preserve">
+        <value>为每一个桌面更改背景</value>
+    </data>
+    <data name="Settings_Background_Desktop" xml:space="preserve">
+        <value>桌面背景</value>
+    </data>
+    <data name="Settings_Background_Image" xml:space="preserve">
+        <value>壁纸</value>
+    </data>
+    <data name="Settings_Background_Note1" xml:space="preserve">
+        <value>支持的图片格式：</value>
+    </data>
+    <data name="Settings_Background_Note2" xml:space="preserve">
+        <value>注意：请准备以虚拟桌面序号为文件名的图像文件（如：“1.png”，“2.png”，……）。</value>
+    </data>
+    <data name="Settings_Background_Position" xml:space="preserve">
+        <value>背景形式：</value>
+    </data>
+    <data name="Settings_Background_Position_Center" xml:space="preserve">
+        <value>居中</value>
+    </data>
+    <data name="Settings_Background_Position_Fill" xml:space="preserve">
+        <value>填充</value>
+    </data>
+    <data name="Settings_Background_Position_Fit" xml:space="preserve">
+        <value>适应</value>
+    </data>
+    <data name="Settings_Background_Position_Span" xml:space="preserve">
+        <value>跨区</value>
+    </data>
+    <data name="Settings_Background_Position_Stretch" xml:space="preserve">
+        <value>拉伸</value>
+    </data>
+    <data name="Settings_Background_Position_Tile" xml:space="preserve">
+        <value>平铺</value>
+    </data>
+    <data name="Settings_Background_SelectionDialog" xml:space="preserve">
+        <value>选择背景图像</value>
+    </data>
+    <data name="Settings_Background_SourceImageFile" xml:space="preserve">
+        <value>图像文件路径</value>
+    </data>
+    <data name="Settings_Background_SourceImageFolder" xml:space="preserve">
+        <value>图像文件夹路径</value>
+    </data>
+    <data name="Settings_CloseDesktop" xml:space="preserve">
+        <value>关闭虚拟桌面</value>
+    </data>
+    <data name="Settings_CloseDesktop_CloseAndSwitchLeft" xml:space="preserve">
+        <value>关闭并向左切换：</value>
+    </data>
+    <data name="Settings_CloseDesktop_CloseAndSwitchRight" xml:space="preserve">
+        <value>关闭并向右切换：</value>
+    </data>
+    <data name="Settings_Desktop" xml:space="preserve">
+        <value>桌面</value>
+    </data>
+    <data name="Settings_DesktopNames" xml:space="preserve">
+        <value>桌面名称</value>
+    </data>
+    <data name="Settings_DesktopNames_UseDesktopName" xml:space="preserve">
+        <value>在通知窗口中显示桌面名称</value>
+    </data>
+    <data name="Settings_DesktopSwitching" xml:space="preserve">
+        <value>桌面切换</value>
+    </data>
+    <data name="Settings_DesktopSwitching_Loop" xml:space="preserve">
+        <value>循环</value>
+    </data>
+    <data name="Settings_DesktopSwitching_OverrideOS" xml:space="preserve">
+        <value>覆盖操作系统默认组合键（Ctrl+Win+左右键）</value>
+    </data>
+    <data name="Settings_Desktop_ClickToSwitchDesktop" xml:space="preserve">
+        <value>点击切换到这个桌面</value>
+    </data>
+    <data name="Settings_Desktop_CloseDesktop" xml:space="preserve">
+        <value>删除</value>
+    </data>
+    <data name="Settings_Desktop_CloseDesktop_CloseThisDesktop" xml:space="preserve">
+        <value>删除这个桌面</value>
+    </data>
+    <data name="Settings_Desktop_CreateDesktop" xml:space="preserve">
+        <value>新建桌面</value>
+    </data>
+    <data name="Settings_Desktop_MoveDesktopFirst" xml:space="preserve">
+        <value>第一个</value>
+    </data>
+    <data name="Settings_Desktop_MoveDesktopLast" xml:space="preserve">
+        <value>最后一个</value>
+    </data>
+    <data name="Settings_Desktop_MoveDesktopNext" xml:space="preserve">
+        <value>下一个</value>
+    </data>
+    <data name="Settings_Desktop_MoveDesktopPrevious" xml:space="preserve">
+        <value>上一个</value>
+    </data>
+    <data name="Settings_Desktop_OverrideSettingsOnStartup" xml:space="preserve">
+        <value>在启动时使用保存的设置覆盖虚拟桌面</value>
+    </data>
+    <data name="Settings_Desktop_Reorder" xml:space="preserve">
+        <value>排序：</value>
+    </data>
+    <data name="Settings_Desktop_Settings" xml:space="preserve">
+        <value>桌面设置</value>
+    </data>
+    <data name="Settings_General" xml:space="preserve">
+        <value>通用</value>
+    </data>
+    <data name="Settings_Language" xml:space="preserve">
+        <value>语言</value>
+    </data>
+    <data name="Settings_Language_RequireRestartMessage" xml:space="preserve">
+        <value>你必须重新应用以确保更改生效。</value>
+    </data>
+    <data name="Settings_Language_System" xml:space="preserve">
+        <value>跟随系统</value>
+    </data>
+    <data name="Settings_Log" xml:space="preserve">
+        <value>日志</value>
+    </data>
+    <data name="Settings_LogViewer" xml:space="preserve">
+        <value>事件查看器</value>
+    </data>
+    <data name="Settings_LogViewer_Description" xml:space="preserve">
+        <value>执行中产生的事件将显示在这。</value>
+    </data>
+    <data name="Settings_ManagingSettings" xml:space="preserve">
+        <value>管理设置</value>
+    </data>
+    <data name="Settings_ManagingSettings_Export" xml:space="preserve">
+        <value>导出……</value>
+    </data>
+    <data name="Settings_ManagingSettings_ExportDetail" xml:space="preserve">
+        <value>将设置导出到 XML 文件。</value>
+    </data>
+    <data name="Settings_ManagingSettings_ExportDialog" xml:space="preserve">
+        <value>设置另存为……</value>
+    </data>
+    <data name="Settings_ManagingSettings_Import" xml:space="preserve">
+        <value>导入……</value>
+    </data>
+    <data name="Settings_ManagingSettings_ImportDetail" xml:space="preserve">
+        <value>从 XML 文件导入设置。</value>
+    </data>
+    <data name="Settings_ManagingSettings_ImportDialog" xml:space="preserve">
+        <value>选择要导入的配置文件</value>
+    </data>
+    <data name="Settings_ManagingSettings_OverrideDesktopsConfirmationDialog" xml:space="preserve">
+        <value>确认覆盖虚拟桌面</value>
+    </data>
+    <data name="Settings_ManagingSettings_OverrideDesktopsConfirmationMessage" xml:space="preserve">
+        <value>请问你想覆盖虚拟桌面的设置吗？</value>
+    </data>
+    <data name="Settings_ManagingSettings_Reset" xml:space="preserve">
+        <value>重置为默认值</value>
+    </data>
+    <data name="Settings_ManagingSettings_ResetConfirmationDialog" xml:space="preserve">
+        <value>确认重置</value>
+    </data>
+    <data name="Settings_ManagingSettings_ResetConfirmationMessage" xml:space="preserve">
+        <value>这将会删除全部设置。请问你确定要重置吗？</value>
+    </data>
+    <data name="Settings_ManagingSettings_ResetDetail" xml:space="preserve">
+        <value>重置设置为默认值。这将会删除全部设置。</value>
+    </data>
+    <data name="Settings_MouseShortcut" xml:space="preserve">
+        <value>鼠标</value>
+    </data>
+    <data name="Settings_MoveWindowToAdjacentDesktop" xml:space="preserve">
+        <value>将活动窗口移动到相邻的虚拟桌面</value>
+    </data>
+    <data name="Settings_MoveWindowToAdjacentDesktop_Left" xml:space="preserve">
+        <value>向左移动：</value>
+    </data>
+    <data name="Settings_MoveWindowToAdjacentDesktop_LeftAndSwitch" xml:space="preserve">
+        <value>向左移动并切换：</value>
+    </data>
+    <data name="Settings_MoveWindowToAdjacentDesktop_Right" xml:space="preserve">
+        <value>向右移动：</value>
+    </data>
+    <data name="Settings_MoveWindowToAdjacentDesktop_RightAndSwitch" xml:space="preserve">
+        <value>向右移动并切换：</value>
+    </data>
+    <data name="Settings_MoveWindowToCreatedDesktop" xml:space="preserve">
+        <value>将活动窗口移动到新创建的虚拟桌面</value>
+    </data>
+    <data name="Settings_MoveWindowToCreatedDesktop_CreateOnly" xml:space="preserve">
+        <value>仅切换：</value>
+    </data>
+    <data name="Settings_MoveWindowToCreatedDesktop_Move" xml:space="preserve">
+        <value>移动：</value>
+    </data>
+    <data name="Settings_MoveWindowToCreatedDesktop_MoveAndSwitch" xml:space="preserve">
+        <value>移动并切换：</value>
+    </data>
+    <data name="Settings_MoveWindowToSpecifiedDesktop" xml:space="preserve">
+        <value>将活动窗口移动到指定虚拟桌面</value>
+    </data>
+    <data name="Settings_MoveWindowToSpecifiedDesktopAndSwitch" xml:space="preserve">
+        <value>将活动窗口移动到指定虚拟桌面并切换</value>
+    </data>
+    <data name="Settings_MoveWindowToSpecifiedDesktopAndSwitch_Previous" xml:space="preserve">
+        <value>移至上一个并切换：</value>
+    </data>
+    <data name="Settings_MoveWindowToSpecifiedDesktop_Previous" xml:space="preserve">
+        <value>移至上一个：</value>
+    </data>
+    <data name="Settings_MultipleDisplays" xml:space="preserve">
+        <value>通知目标显示器</value>
+    </data>
+    <data name="Settings_MultipleDisplays_AllDisplays" xml:space="preserve">
+        <value>全部显示器</value>
+    </data>
+    <data name="Settings_MultipleDisplays_CurrentDisplay" xml:space="preserve">
+        <value>当前显示器</value>
+    </data>
+    <data name="Settings_MultipleDisplays_EachDisplay" xml:space="preserve">
+        <value>显示器 {0}: {1}</value>
+    </data>
+    <data name="Settings_Notification" xml:space="preserve">
+        <value>通知</value>
+    </data>
+    <data name="Settings_NotificationFontFamily" xml:space="preserve">
+        <value>通知字体名称</value>
+    </data>
+    <data name="Settings_NotificationFontSize" xml:space="preserve">
+        <value>通知字体大小</value>
+    </data>
+    <data name="Settings_NotificationFontSize_Body" xml:space="preserve">
+        <value>正文：</value>
+    </data>
+    <data name="Settings_NotificationFontSize_Header" xml:space="preserve">
+        <value>标题：</value>
+    </data>
+    <data name="Settings_NotificationFontSize_LineSpacing" xml:space="preserve">
+        <value>行间距：</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment" xml:space="preserve">
+        <value>通知文本对齐</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment_Body" xml:space="preserve">
+        <value>正文：</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment_Center" xml:space="preserve">
+        <value>居中</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment_Header" xml:space="preserve">
+        <value>标题：</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment_Left" xml:space="preserve">
+        <value>靠左</value>
+    </data>
+    <data name="Settings_NotificationTextAlignment_Right" xml:space="preserve">
+        <value>靠右</value>
+    </data>
+    <data name="Settings_NotificationWindowMinSize" xml:space="preserve">
+        <value>通知窗口最小大小</value>
+    </data>
+    <data name="Settings_NotificationWindowMinSize_Height" xml:space="preserve">
+        <value>高度：</value>
+    </data>
+    <data name="Settings_NotificationWindowMinSize_Width" xml:space="preserve">
+        <value>宽度：</value>
+    </data>
+    <data name="Settings_NotificationWindowMinSize_Width_PinWindow" xml:space="preserve">
+        <value>固定窗口：</value>
+    </data>
+    <data name="Settings_NotificationWindowMinSize_Width_SimpleMode" xml:space="preserve">
+        <value>通知窗口：</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement" xml:space="preserve">
+        <value>通知位置</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_BottomCenter" xml:space="preserve">
+        <value>底部中间</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_BottomLeft" xml:space="preserve">
+        <value>左下角</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_BottomRight" xml:space="preserve">
+        <value>右下角</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_Center" xml:space="preserve">
+        <value>中间</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_TopCenter" xml:space="preserve">
+        <value>顶部中间</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_TopLeft" xml:space="preserve">
+        <value>左上角</value>
+    </data>
+    <data name="Settings_NotificationWindowPlacement_TopRight" xml:space="preserve">
+        <value>右上角</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle" xml:space="preserve">
+        <value>通知窗口样式</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle_Accent" xml:space="preserve">
+        <value>主题色</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle_Apps" xml:space="preserve">
+        <value>使用应用设置</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle_Dark" xml:space="preserve">
+        <value>深色</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle_Light" xml:space="preserve">
+        <value>浅色</value>
+    </data>
+    <data name="Settings_NotificationWindowStyle_System" xml:space="preserve">
+        <value>使用系统设置</value>
+    </data>
+    <data name="Settings_Notification_AlwaysShowDesktop" xml:space="preserve">
+        <value>总是在当前桌面显示</value>
+    </data>
+    <data name="Settings_Notification_Display" xml:space="preserve">
+        <value>当切换虚拟桌面时显示</value>
+    </data>
+    <data name="Settings_Notification_Display_Duration" xml:space="preserve">
+        <value>持续时间：</value>
+    </data>
+    <data name="Settings_Notification_Display_Duration_Milliseconds" xml:space="preserve">
+        <value>毫秒</value>
+    </data>
+    <data name="Settings_Notification_Others" xml:space="preserve">
+        <value>其他选项</value>
+    </data>
+    <data name="Settings_Notification_SimpleMode" xml:space="preserve">
+        <value>简单通知模式</value>
+    </data>
+    <data name="Settings_OperateSylphyHorn" xml:space="preserve">
+        <value>控制 SylphyHornPlus</value>
+    </data>
+    <data name="Settings_Pin" xml:space="preserve">
+        <value>固定：</value>
+    </data>
+    <data name="Settings_PinToggle" xml:space="preserve">
+        <value>切换固定：</value>
+    </data>
+    <data name="Settings_PinWindow" xml:space="preserve">
+        <value>在所有桌面上显示（固定）窗口</value>
+    </data>
+    <data name="Settings_PinWindowFromApp" xml:space="preserve">
+        <value>在所有桌面上显示（固定）应用窗口</value>
+    </data>
+    <data name="Settings_Placement" xml:space="preserve">
+        <value>放置</value>
+    </data>
+    <data name="Settings_ShortcutKey" xml:space="preserve">
+        <value>快捷键</value>
+    </data>
+    <data name="Settings_ShowOnlyCurrentNumberInTray" xml:space="preserve">
+        <value>只显示当前桌面编号（简单模式）</value>
+    </data>
+    <data name="Settings_ShowSettings" xml:space="preserve">
+        <value>显示设置：</value>
+    </data>
+    <data name="Settings_Startup" xml:space="preserve">
+        <value>启动</value>
+    </data>
+    <data name="Settings_Startup_Automaticaly" xml:space="preserve">
+        <value>开机启动</value>
+    </data>
+    <data name="Settings_Startup_Automaticaly_As_Admin" xml:space="preserve">
+        <value>以管理员权限开机启动（通过任务计划程序）</value>
+    </data>
+    <data name="Settings_SwapDesktop" xml:space="preserve">
+        <value>交换桌面（Windows 11）</value>
+    </data>
+    <data name="Settings_SwapDesktop_First" xml:space="preserve">
+        <value>第一个：</value>
+    </data>
+    <data name="Settings_SwapDesktop_Last" xml:space="preserve">
+        <value>最后一个：</value>
+    </data>
+    <data name="Settings_SwapDesktop_Left" xml:space="preserve">
+        <value>向左：</value>
+    </data>
+    <data name="Settings_SwapDesktop_Right" xml:space="preserve">
+        <value>向右：</value>
+    </data>
+    <data name="Settings_SwapSpecifiedDesktop" xml:space="preserve">
+        <value>交换指定桌面（Windows 11）</value>
+    </data>
+    <data name="Settings_SwitchAdjacentDesktop" xml:space="preserve">
+        <value>切换到相邻的桌面</value>
+    </data>
+    <data name="Settings_SwitchAdjacentDesktop_SwitchLeft" xml:space="preserve">
+        <value>向左</value>
+    </data>
+    <data name="Settings_SwitchAdjacentDesktop_SwitchRight" xml:space="preserve">
+        <value>向右</value>
+    </data>
+    <data name="Settings_SwitchSpecifiedDesktop" xml:space="preserve">
+        <value>切换到指定桌面</value>
+    </data>
+    <data name="Settings_SwitchSpecifiedDesktop_Add" xml:space="preserve">
+        <value>新增</value>
+    </data>
+    <data name="Settings_SwitchSpecifiedDesktop_Previous" xml:space="preserve">
+        <value>前一个：</value>
+    </data>
+    <data name="Settings_SwitchSpecifiedDesktop_RemoveLast" xml:space="preserve">
+        <value>移除最后一个</value>
+    </data>
+    <data name="Settings_SwitchSpecifiedDesktop_ResizeToFit" xml:space="preserve">
+        <value>还原为实际桌面数量</value>
+    </data>
+    <data name="Settings_TaskView" xml:space="preserve">
+        <value>任务视图</value>
+    </data>
+    <data name="Settings_TaskView_ShowTaskView" xml:space="preserve">
+        <value>显示任务视图：</value>
+    </data>
+    <data name="Settings_TaskView_ShowWindowSwitch" xml:space="preserve">
+        <value>切换窗口：</value>
+    </data>
+    <data name="Settings_Title" xml:space="preserve">
+        <value>设置</value>
+    </data>
+    <data name="Settings_ToggleDesktopNotification" xml:space="preserve">
+        <value>切换桌面通知的显示：</value>
+    </data>
+    <data name="Settings_ToggleTrayIconInfo" xml:space="preserve">
+        <value>在系统托盘中显示桌面编号</value>
+    </data>
+    <data name="Settings_TrayIcon" xml:space="preserve">
+        <value>系统托盘图标</value>
+    </data>
+    <data name="Settings_Unpin" xml:space="preserve">
+        <value>取消固定：</value>
+    </data>
+    <data name="Settings_Version" xml:space="preserve">
+        <value>版本信息</value>
+    </data>
+    <data name="TaskTray_FirstTimeMessage" xml:space="preserve">
+        <value>本应用在后台运行。</value>
+    </data>
+    <data name="TaskTray_Menu_Exit" xml:space="preserve">
+        <value>退出</value>
+    </data>
+    <data name="TaskTray_Menu_Settings" xml:space="preserve">
+        <value>设置</value>
+    </data>
+    <data name="TaskTray_TooltipText_DesktopCount" xml:space="preserve">
+        <value>桌面 {0}/{1}</value>
+    </data>
+</root>
