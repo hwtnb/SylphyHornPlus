@@ -95,6 +95,8 @@ namespace SylphyHorn.Services
 		{
 			if (this._suspended) return;
 
+			RemoveReleasedModifiers(this._pressedModifiers, IsKeyDown);
+
 			if (args.KeyCode.IsModifyKey())
 			{
 				this._pressedModifiers.Add(args.KeyCode);
@@ -119,10 +121,36 @@ namespace SylphyHorn.Services
 			}
 			else
 			{
+				RemoveReleasedModifiers(this._pressedModifiers, IsKeyDown);
+
 				var pressedEventArgs = new ShortcutKeyPressedEventArgs(args.KeyCode, this._pressedModifiers);
 				this.KeyUp?.Invoke(this, pressedEventArgs);
 				if (pressedEventArgs.Handled) args.SuppressKeyPress = true;
 			}
+		}
+
+		/// <summary>
+		/// Forgets modifier keys that are no longer held down.
+		/// </summary>
+		/// <remarks>
+		/// While the secure desktop is shown (Ctrl+Alt+Del, UAC prompts, the lock screen), key-up events are not delivered
+		/// to the global hook. Without this, the modifiers pressed to open it (e.g. Ctrl and Alt) would stay registered
+		/// and no shortcut key would match afterward.
+		/// The detector never suppresses modifier key-down events, so the asynchronous key state reflects them.
+		/// </remarks>
+		internal static void RemoveReleasedModifiers(ISet<Keys> pressedModifiers, Func<Keys, bool> isKeyDown)
+		{
+			if (pressedModifiers.Count == 0) return;
+
+			foreach (var key in pressedModifiers.Where(x => !isKeyDown(x)).ToArray())
+			{
+				pressedModifiers.Remove(key);
+			}
+		}
+
+		private static bool IsKeyDown(Keys key)
+		{
+			return (Interop.NativeMethods.GlobalHook.GetAsyncKeyState((int)key) & 0x8000) != 0;
 		}
 
 		private void InterceptorOnMouseDown(ref MouseState state)

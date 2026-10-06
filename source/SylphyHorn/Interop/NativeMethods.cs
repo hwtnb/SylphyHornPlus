@@ -70,6 +70,9 @@ namespace SylphyHorn.Interop
 			[DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
 			public static extern IntPtr GetModuleHandle(string moduleName);
 
+			[DllImport("user32.dll")]
+			public static extern short GetAsyncKeyState(int vKey);
+
 			[DllImport("user32.dll", SetLastError = true)]
 			public static extern IntPtr SetWindowsHookEx(int idHook, HookDelegate lpfn, IntPtr hMod, uint dwThreadId);
 
